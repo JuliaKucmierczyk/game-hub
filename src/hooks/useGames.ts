@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import apiClient from "../services/api-client";
-import {Text} from '@chakra-ui/react';
 
   export interface Platform {
     id: number;
@@ -12,7 +11,8 @@ import {Text} from '@chakra-ui/react';
     id: number;
     name: string;
     background_image: string;
-    parent_platforms: {platform: Platform}[]
+    parent_platforms: {platform: Platform}[];
+    metacritic: number;
   }
   
   interface FetchGamesResponse {
