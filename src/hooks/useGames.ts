@@ -13,6 +13,7 @@ import useData from "./useData";
     background_image: string;
     parent_platforms: {platform: Platform}[];
     metacritic: number;
+    rating_top: number;
   }
   
 
